@@ -12,15 +12,18 @@ import sys
 import datetime
 
 
+paquetes_perdidos = 0
+tiempo_total_espera = 0
+paquetes_procesados = 0
+te = 0.0 #tiempo de espera total
+dt = 0.0#duracion del servicio
+fin = 0.0#minuto en que finaliza
 class Simulador:
     def __init__(self):
         random.seed(42)  # Semilla para reproducibilidad
 
     def simulacion_peluqueria(self, tot_clientes, tiempo_corte_min, tiempo_corte_max, t_llegadas, num_peluqueros):
         semilla = 30
-        te=0.0 #tiempo de espera total
-        dt=0.0#duracion del servicio
-        fin=0.0#minuto en que finaliza
         #procedimientos
         def  cortar(cliente):
             global dt
@@ -510,17 +513,15 @@ class Simulador:
     def simulacion_sistema_redes(self, capacidad_servidor, capacidad_cola, tiempo_procesamiento_min, tiempo_procesamiento_max, tiempo_llegadas, total_paquetes):
         # Parámetros de la simulación
         SEMILLA = 42  # Semilla para reproducibilidad
-        CAPACIDAD_SERVIDOR = 1  # Capacidad del servidor (cuántos paquetes puede procesar simultáneamente)
-        CAPACIDAD_COLA = 5  # Capacidad de la cola de espera
-        TIEMPO_PROCESAMIENTO_MIN = 2  # Tiempo mínimo de procesamiento de un paquete (segundos)
-        TIEMPO_PROCESAMIENTO_MAX = 5  # Tiempo máximo de procesamiento de un paquete (segundos)
-        TIEMPO_LLEGADAS = 3  # Tiempo promedio entre la llegada de paquetes (segundos)
-        TOTAL_PAQUETES = 50  # Número total de paquetes a simular
+        CAPACIDAD_SERVIDOR = capacidad_servidor  # Capacidad del servidor (cuántos paquetes puede procesar simultáneamente)
+        CAPACIDAD_COLA = capacidad_cola  # Capacidad de la cola de espera
+        TIEMPO_PROCESAMIENTO_MIN = tiempo_procesamiento_min  # Tiempo mínimo de procesamiento de un paquete (segundos)
+        TIEMPO_PROCESAMIENTO_MAX = tiempo_procesamiento_max  # Tiempo máximo de procesamiento de un paquete (segundos)
+        TIEMPO_LLEGADAS = tiempo_llegadas  # Tiempo promedio entre la llegada de paquetes (segundos)
+        TOTAL_PAQUETES = total_paquetes  # Número total de paquetes a simular
 
         # Variables para seguimiento de estadísticas
-        paquetes_perdidos = 0
-        tiempo_total_espera = 0
-        paquetes_procesados = 0
+       
 
 
         # Función para simular el proceso de un paquete
@@ -621,11 +622,6 @@ class Simulador:
         pass
 
     def simulacion_reactor_nuclear(self, Q_gen, k, T_cool, C, T0, tiempo_simulacion):
-        Q_gen = 5000  # Tasa de generación de calor en vatios (W)
-        k = 0.1  # Coeficiente de enfriamiento en W/°C
-        T_cool = 25  # Temperatura del sistema de enfriamiento en grados Celsius (°C)
-        C = 10000  # Capacidad térmica del reactor (J/°C)
-
         # Ecuación diferencial para la variación de la temperatura
         def modelo(T, t):
             dT_dt = (Q_gen / C) - k * (T - T_cool)
