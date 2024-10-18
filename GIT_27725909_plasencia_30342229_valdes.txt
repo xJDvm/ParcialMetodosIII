@@ -1,1 +1,218 @@
 https://github.com/xJDvm/ParcialMetodosIII
+
+*------------------------------------------------------------------------------------------*
+
+Ejercicio 1:
+---Simulacion Peluqueria---
+--> cliente 1 llegó a la peluqueria en el minuto 9.27
+cliente 1 Pasa y espera en la peluqueria en el minuto 9.27 habiendo esperado 0.00
+Corte listo a cliente 1 en 12.39 minutos
+<--cliente 1 deja la peluqueria en minuto 21.66
+--> cliente 2 llegó a la peluqueria en el minuto 27.88
+cliente 2 Pasa y espera en la peluqueria en el minuto 27.88 habiendo esperado 0.00
+--> cliente 3 llegó a la peluqueria en el minuto 34.26
+Corte listo a cliente 2 en 14.73 minutos
+<--cliente 2 deja la peluqueria en minuto 42.61
+cliente 3 Pasa y espera en la peluqueria en el minuto 42.61 habiendo esperado 8.35
+--> cliente 4 llegó a la peluqueria en el minuto 54.62
+Corte listo a cliente 3 en 17.16 minutos
+<--cliente 3 deja la peluqueria en minuto 59.77
+cliente 4 Pasa y espera en la peluqueria en el minuto 59.77 habiendo esperado 5.15
+Corte listo a cliente 4 en 20.34 minutos
+<--cliente 4 deja la peluqueria en minuto 80.11
+Indicadores optenidos
+
+Longitud promedio de la cola: 0.17
+Tiempo de espera promedio: 3.38
+Uso promedio de la instalacion: 0.81
+
+*------------------------------------------------------------------------------------------*
+
+Ejercicio 2:
+--- Simulación de Red de Computadoras ---
+Paquete 1 llega al servidor en el segundo 3.06
+Paquete 1 comienza a ser procesado después de esperar 0.00 segundos en el segundo 3.06
+Paquete 2 llega al servidor en el segundo 3.14
+Paquete 3 llega al servidor en el segundo 3.98
+Paquete 4 llega al servidor en el segundo 4.43
+Paquete 5 llega al servidor en el segundo 4.75
+Paquete 1 termina de ser procesado en el segundo 8.06
+Paquete 2 comienza a ser procesado después de esperar 4.92 segundos en el segundo 8.06
+Paquete 6 llega al servidor en el segundo 8.80
+Paquete 2 termina de ser procesado en el segundo 11.06
+Paquete 3 comienza a ser procesado después de esperar 7.08 segundos en el segundo 11.06
+Paquete 7 llega al servidor en el segundo 11.48
+Paquete 8 llega al servidor en el segundo 11.57
+Paquete 8 se pierde debido a cola llena en el segundo 11.57
+Paquete 9 llega al servidor en el segundo 12.31
+Paquete 9 se pierde debido a cola llena en el segundo 12.31
+Paquete 3 termina de ser procesado en el segundo 14.06
+Paquete 4 comienza a ser procesado después de esperar 9.63 segundos en el segundo 14.06
+Paquete 10 llega al servidor en el segundo 14.42
+Paquete 11 llega al servidor en el segundo 16.90
+Paquete 11 se pierde debido a cola llena en el segundo 16.90
+Paquete 4 termina de ser procesado en el segundo 17.06
+Paquete 5 comienza a ser procesado después de esperar 12.31 segundos en el segundo 17.06
+Paquete 12 llega al servidor en el segundo 20.67
+Paquete 13 llega al servidor en el segundo 21.42
+Paquete 13 se pierde debido a cola llena en el segundo 21.42
+Paquete 5 termina de ser procesado en el segundo 23.06
+Paquete 6 comienza a ser procesado después de esperar 14.26 segundos en el segundo 23.06
+Paquete 14 llega al servidor en el segundo 24.09
+Paquete 6 termina de ser procesado en el segundo 26.06
+Paquete 7 comienza a ser procesado después de esperar 14.58 segundos en el segundo 26.06
+Paquete 15 llega al servidor en el segundo 28.36
+Paquete 7 termina de ser procesado en el segundo 30.06
+Paquete 10 comienza a ser procesado después de esperar 15.64 segundos en el segundo 30.06
+Paquete 16 llega al servidor en el segundo 31.95
+Paquete 17 llega al servidor en el segundo 32.93
+Paquete 17 se pierde debido a cola llena en el segundo 32.93
+Paquete 18 llega al servidor en el segundo 33.65
+Paquete 18 se pierde debido a cola llena en el segundo 33.65
+Paquete 10 termina de ser procesado en el segundo 35.06
+Paquete 12 comienza a ser procesado después de esperar 14.39 segundos en el segundo 35.06
+Paquete 19 llega al servidor en el segundo 37.98
+Paquete 12 termina de ser procesado en el segundo 38.06
+Paquete 14 comienza a ser procesado después de esperar 13.97 segundos en el segundo 38.06
+Paquete 20 llega al servidor en el segundo 38.27
+Paquete 21 llega al servidor en el segundo 39.60
+Paquete 21 se pierde debido a cola llena en el segundo 39.60
+Paquete 22 llega al servidor en el segundo 40.87
+Paquete 22 se pierde debido a cola llena en el segundo 40.87
+Paquete 14 termina de ser procesado en el segundo 41.06
+Paquete 15 comienza a ser procesado después de esperar 12.71 segundos en el segundo 41.06
+Paquete 23 llega al servidor en el segundo 41.79
+Paquete 15 termina de ser procesado en el segundo 44.06
+Paquete 16 comienza a ser procesado después de esperar 12.11 segundos en el segundo 44.06
+Paquete 24 llega al servidor en el segundo 45.72
+Paquete 16 termina de ser procesado en el segundo 47.06
+Paquete 19 comienza a ser procesado después de esperar 9.08 segundos en el segundo 47.06
+Paquete 19 termina de ser procesado en el segundo 53.06
+Paquete 20 comienza a ser procesado después de esperar 14.79 segundos en el segundo 53.06
+Paquete 20 termina de ser procesado en el segundo 56.06
+Paquete 23 comienza a ser procesado después de esperar 14.27 segundos en el segundo 56.06
+Paquete 25 llega al servidor en el segundo 56.56
+Paquete 23 termina de ser procesado en el segundo 61.06
+Paquete 24 comienza a ser procesado después de esperar 15.34 segundos en el segundo 61.06
+Paquete 26 llega al servidor en el segundo 61.87
+Paquete 27 llega al servidor en el segundo 64.45
+Paquete 24 termina de ser procesado en el segundo 66.06
+Paquete 25 comienza a ser procesado después de esperar 9.50 segundos en el segundo 66.06
+Paquete 28 llega al servidor en el segundo 68.11
+Paquete 25 termina de ser procesado en el segundo 69.06
+Paquete 26 comienza a ser procesado después de esperar 7.19 segundos en el segundo 69.06
+Paquete 29 llega al servidor en el segundo 71.36
+Paquete 26 termina de ser procesado en el segundo 74.06
+Paquete 27 comienza a ser procesado después de esperar 9.61 segundos en el segundo 74.06
+Paquete 27 termina de ser procesado en el segundo 78.06
+Paquete 28 comienza a ser procesado después de esperar 9.95 segundos en el segundo 78.06
+Paquete 28 termina de ser procesado en el segundo 81.06
+Paquete 29 comienza a ser procesado después de esperar 9.70 segundos en el segundo 81.06
+Paquete 30 llega al servidor en el segundo 84.00
+Paquete 31 llega al servidor en el segundo 84.98
+Paquete 29 termina de ser procesado en el segundo 87.06
+Paquete 30 comienza a ser procesado después de esperar 3.06 segundos en el segundo 87.06
+Paquete 32 llega al servidor en el segundo 88.01
+Paquete 33 llega al servidor en el segundo 88.54
+Paquete 34 llega al servidor en el segundo 89.86
+Paquete 30 termina de ser procesado en el segundo 92.06
+Paquete 31 comienza a ser procesado después de esperar 7.08 segundos en el segundo 92.06
+Paquete 35 llega al servidor en el segundo 93.19
+Paquete 31 termina de ser procesado en el segundo 95.06
+Paquete 32 comienza a ser procesado después de esperar 7.05 segundos en el segundo 95.06
+Paquete 36 llega al servidor en el segundo 96.00
+Paquete 37 llega al servidor en el segundo 98.30
+Paquete 37 se pierde debido a cola llena en el segundo 98.30
+Paquete 32 termina de ser procesado en el segundo 99.06
+Paquete 33 comienza a ser procesado después de esperar 10.52 segundos en el segundo 99.06
+Paquete 38 llega al servidor en el segundo 99.14
+Paquete 39 llega al servidor en el segundo 100.57
+Paquete 39 se pierde debido a cola llena en el segundo 100.57
+Paquete 33 termina de ser procesado en el segundo 105.06
+Paquete 34 comienza a ser procesado después de esperar 15.20 segundos en el segundo 105.06
+Paquete 34 termina de ser procesado en el segundo 109.06
+Paquete 35 comienza a ser procesado después de esperar 15.87 segundos en el segundo 109.06
+Paquete 35 termina de ser procesado en el segundo 114.06
+Paquete 36 comienza a ser procesado después de esperar 18.06 segundos en el segundo 114.06
+Paquete 40 llega al servidor en el segundo 114.24
+Paquete 41 llega al servidor en el segundo 115.03
+Paquete 42 llega al servidor en el segundo 115.12
+Paquete 43 llega al servidor en el segundo 116.26
+Paquete 43 se pierde debido a cola llena en el segundo 116.26
+Paquete 36 termina de ser procesado en el segundo 117.06
+Paquete 38 comienza a ser procesado después de esperar 17.92 segundos en el segundo 117.06
+Paquete 44 llega al servidor en el segundo 117.19
+Paquete 38 termina de ser procesado en el segundo 121.06
+Paquete 40 comienza a ser procesado después de esperar 6.82 segundos en el segundo 121.06
+Paquete 45 llega al servidor en el segundo 124.53
+Paquete 46 llega al servidor en el segundo 125.24
+Paquete 46 se pierde debido a cola llena en el segundo 125.24
+Paquete 40 termina de ser procesado en el segundo 126.06
+Paquete 41 comienza a ser procesado después de esperar 11.03 segundos en el segundo 126.06
+Paquete 47 llega al servidor en el segundo 127.32
+Paquete 48 llega al servidor en el segundo 127.78
+Paquete 48 se pierde debido a cola llena en el segundo 127.78
+Paquete 49 llega al servidor en el segundo 128.23
+Paquete 49 se pierde debido a cola llena en el segundo 128.23
+Paquete 41 termina de ser procesado en el segundo 132.06
+Paquete 42 comienza a ser procesado después de esperar 16.94 segundos en el segundo 132.06
+Paquete 50 llega al servidor en el segundo 132.33
+Paquete 51 llega al servidor en el segundo 136.45
+Paquete 51 se pierde debido a cola llena en el segundo 136.45
+Paquete 42 termina de ser procesado en el segundo 137.06
+Paquete 44 comienza a ser procesado después de esperar 19.87 segundos en el segundo 137.06
+Paquete 52 llega al servidor en el segundo 138.13
+Paquete 53 llega al servidor en el segundo 139.48
+Paquete 53 se pierde debido a cola llena en el segundo 139.48
+Paquete 44 termina de ser procesado en el segundo 143.06
+Paquete 45 comienza a ser procesado después de esperar 18.53 segundos en el segundo 143.06
+Paquete 45 termina de ser procesado en el segundo 147.06
+Paquete 47 comienza a ser procesado después de esperar 19.74 segundos en el segundo 147.06
+Paquete 47 termina de ser procesado en el segundo 153.06
+Paquete 50 comienza a ser procesado después de esperar 20.73 segundos en el segundo 153.06
+Paquete 50 termina de ser procesado en el segundo 156.06
+Paquete 52 comienza a ser procesado después de esperar 17.93 segundos en el segundo 156.06
+Paquete 54 llega al servidor en el segundo 157.25
+Paquete 52 termina de ser procesado en el segundo 159.06
+Paquete 54 comienza a ser procesado después de esperar 1.81 segundos en el segundo 159.06
+Paquete 54 termina de ser procesado en el segundo 163.06
+Paquete 55 llega al servidor en el segundo 163.17
+Paquete 55 comienza a ser procesado después de esperar 0.00 segundos en el segundo 163.17
+Paquete 56 llega al servidor en el segundo 166.14
+Paquete 57 llega al servidor en el segundo 168.86
+Paquete 55 termina de ser procesado en el segundo 169.17
+Paquete 56 comienza a ser procesado después de esperar 3.04 segundos en el segundo 169.17
+Paquete 58 llega al servidor en el segundo 170.32
+Paquete 59 llega al servidor en el segundo 172.58
+Paquete 56 termina de ser procesado en el segundo 175.17
+Paquete 57 comienza a ser procesado después de esperar 6.32 segundos en el segundo 175.17
+Paquete 57 termina de ser procesado en el segundo 178.17
+Paquete 58 comienza a ser procesado después de esperar 7.86 segundos en el segundo 178.17
+Paquete 58 termina de ser procesado en el segundo 181.17
+Paquete 59 comienza a ser procesado después de esperar 8.60 segundos en el segundo 181.17
+Paquete 60 llega al servidor en el segundo 183.20
+Paquete 59 termina de ser procesado en el segundo 186.17
+Paquete 60 comienza a ser procesado después de esperar 2.97 segundos en el segundo 186.17
+Paquete 60 termina de ser procesado en el segundo 191.17
+--- Fin de la simulación ---
+
+Resultados de la simulación:
+Total de paquetes simulados: 60
+Paquetes procesados: 44
+Paquetes perdidos: 16
+Tasa de pérdida de paquetes: 26.67%
+Tiempo promedio de espera de los paquetes: 11.09 segundos
+Utilización del servidor: 103.57%
+
+
+*------------------------------------------------------------------------------------------*
+Ejercicio 3:
+El gráfico muestra la evolución de la temperatura del reactor nuclear en función del tiempo durante el proceso de enfriamiento. La curva azul representa la temperatura del reactor, mientras que la línea roja punteada indica la temperatura constante del sistema de enfriamiento.
+
+Análisis:
+Temperatura inicial alta: El reactor comienza a una temperatura aproximada de 145°C.
+Rápida disminución de la temperatura: En los primeros 25 minutos, se observa una rápida caída de la temperatura, lo que indica que el sistema de enfriamiento está funcionando de manera efectiva en esta fase.
+Estabilización: Después de aproximadamente 50 minutos, la temperatura del reactor se estabiliza cerca de los 40°C, muy cerca de la temperatura del sistema de enfriamiento, que parece estar fijada en este mismo valor (40°C).
+Equilibrio térmico: A partir de los 50 minutos, la temperatura del reactor permanece constante, lo que sugiere que el sistema de enfriamiento ha alcanzado un equilibrio con la temperatura del reactor, manteniendo ambas temperaturas estables.
+Conclusión:
+El proceso de enfriamiento del reactor nuclear es eficaz, ya que logra reducir rápidamente la temperatura del reactor desde un valor inicial elevado hasta estabilizarse en una temperatura segura cercana a 40°C. Este comportamiento es típico de un sistema de enfriamiento que funciona correctamente, manteniendo la temperatura bajo control y evitando el sobrecalentamiento.    
